@@ -1,0 +1,203 @@
+#title{
+    background-color: #ff4c68;
+    height: 80%;
+}
+.row{
+    width: 100%;
+}
+.container-fluid{
+    padding: 3% 10%;
+}
+/* button */
+.btn-outline-light {
+    color: white;
+    border-color: white;
+    background-color: transparent;
+}
+.btn-outline-light:hover {
+    color: black;
+    background-color: white;
+    border-color: white;
+}
+
+.btn-dark{
+    background-color: rgb(47, 44, 44);
+}
+.btn-dark:hover{
+    background-color: black;
+}
+.dwn-btn{
+    margin: 1% 2% 5% 0;
+}
+.appleImg{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    bottom: 3px;
+}
+/* Navbar */
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.nav-item{
+    padding:0 20px;
+}
+.heading{
+    margin-bottom: 40px;
+}
+@media (max-width: 576px){
+.heading{
+        font-size: 2rem;
+    }
+    
+}
+
+/* Title Image  */
+.titleImag{
+    width: 60%;
+    transform: rotate(25deg);
+    position: relative;
+    left: 20%;
+}
+/* @media (max-width: 992px){
+    .titleImag{
+        margin-left:90px;
+        width: 45%;
+        }
+        
+    } */
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.3rem;
+    line-height: 1.5;
+    font-weight: bolder;
+    color: white;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.3rem;
+    line-height: 1.5;
+}
+h3{
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+p{
+    color: #8f8f8f;
+}
+#features{
+    padding: 7% 10%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.featureImg{
+    width: 30px;
+    position: absolute;
+    left: 3%;
+    background-color: #ee7467;
+    border-radius: 50%;
+}
+.featureTxt{
+    text-align: center;
+    padding: 4%;
+    
+}
+.icon{
+    color: #ee7467;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+    
+}
+
+
+/* testimonials */
+#testimonials{
+    
+    text-align: center;
+    background-color: #ee7467;
+    color: #fff;
+}
+.carousel-item{
+    padding: 7% 10%;
+}
+.testimonials-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #ee7467;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-img{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.card{
+    height: 100%;
+}
+.pricingbtn{
+    width: 100%;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-col{
+    padding: 3% 2%;
+}
+
+
+/* cta */
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 50px;
+}
+.cta-txt{
+    font-size: 3rem;
+    color: #fff;
+    margin-top: 50px;
+    padding:3% 10%;
+    padding-bottom: 5%;
+}
+
+#footer{
+    text-align: center;
+    margin:6% 0 5% 0;
+}
+.footer-img{
+    width: 2%;
+    margin: 10px;
+}
+
+@media (max-width:991px){
+    .heading{
+        text-align: center;
+    }
+    .dw-btn-div{
+        text-align: center;
+    }
+    .titleImag{
+        transform: rotate(0deg);
+    }
+}
+@media (max-width:900px ) and (min-width : 1000px){
+    .titleImag{
+        width: 45%;
+    }
+}
